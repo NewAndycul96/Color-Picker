@@ -15,9 +15,6 @@ class ColorPickerViewController: UIViewController, UIPickerViewDataSource, UIPic
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let index = 0
-        label.text = colors[index].name
-        self.view.backgroundColor = colors[index].uiColor
         // Do any additional setup after loading the view.
     }
     
